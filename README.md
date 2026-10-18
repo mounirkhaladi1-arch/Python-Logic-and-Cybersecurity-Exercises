@@ -1,26 +1,50 @@
-# Python Programming & Foundational Security Logic
+# Python Logic and Cybersecurity Exercises
 
-This repository contains my personal solutions to **37 technical exercises**, tracking my learning progression from foundational programming concepts to intermediate logic and cryptographic dojos. 
+This branch is a cleaned, portfolio-friendly version of the original learning repository. The original files remain in their historical location so the progression and authorship record are preserved.
 
-The challenges follow a strict difficulty curve, starting from basic input/output operations and scaling up to lower-level data manipulation and security algorithms.
+## Purpose
 
-## 📈 Learning Progression & Topics Covered
+This project shows my progress through beginner Python programming and introductory cybersecurity logic. The work includes:
 
-### 🔹 Level 1: Python Basics & Data Types (Completed)
-* Basic syntax, variable constraints, and basic string manipulation.
-* **Key Challenge:** Built a manual base-conversion script to convert binary strings into decimal integers using pure logical arithmetic instead of standard built-in shorthands.
+- Python basics and data types
+- control flow and loops
+- lists, tuples, and dictionaries
+- functions and modules
+- practical security-related logic exercises
 
-### 🔹 Level 2: Control Flow & Loops (Completed)
-* Boolean logic, loop structures (`for` and `while`), and iterative problem-solving.
-* **Key Challenge:** Coded a secure simulation of a login threshold system that automatically flags and locks out users after three failed validation attempts.
+## Repository structure
 
-### 🔹 Level 3: Lists, Tuples, and Dictionaries (Completed)
-* Data structures, index lookups, memory layouts, and data mapping.
-* **Key Challenge:** Implemented structural sorting algorithms and frequency-counting operations to handle text data mapping without reliance on high-level array utilities.
+- `Level-1-Basics-and-Data-Types/` — basic input, output, string operations, and bitwise logic
+- `Level-2-Control-Flow-and-Loops/` — conditions, iteration, and simple game logic
+- `Level-3-Lists-Tuples-and-Dictionaries/` — list manipulation, dictionaries, and data structures
+- `Level-4-Functions-and-Modules/` — function-based programming and security-oriented tasks
+- `Python_Exercises_Questions.pdf` — the original exercise sheet used during this learning path
 
-### 🔹 Level 4: Functions & Cryptographic Logic (In Progress)
-* Modular software design, argument parsing, return handling, and custom utilities.
-* **Key Challenge:** Successfully reached Exercise 7 by building a functional script that handles manual bitwise operations to execute standard XOR text encryption models.
+## Important note
 
-## 🛠️ Repository Goals
-The main purpose of this repository is to document my foundational programming growth, focus on structured scripting practices, and build the strong logical habits necessary to tackle lower-level systems engineering and advanced technical environments.
+This branch is meant to improve readability and presentation for review, not to claim the repository is fully polished or production-ready. The original files are kept intact, and no code has been executed here as part of this cleanup.
+
+## Featured exercise
+
+The strongest technical example in this repository is the binary-to-decimal exercise in Level 1. It demonstrates bit manipulation, positional arithmetic, and binary reasoning using a manual shift-and-add process rather than a built-in conversion helper.
+
+## Learning progression
+
+This repository reflects a gradual learning process in:
+
+- syntax and Python fundamentals
+- logic and branching
+- iteration and loops
+- data structures
+- practical mini-project logic
+- foundational cybersecurity thinking
+
+## Authorship note
+
+This project documents my learning progression and reflects my work across multiple levels. Some exercises were reviewed and refined later with AI-assisted debugging support; the goal was to improve readability and correctness, while keeping a clear record of the original learning process.
+
+## PDF source
+
+The original exercise guidance remains available in the repository as:
+
+- `Python_Exercises_Questions.pdf`
